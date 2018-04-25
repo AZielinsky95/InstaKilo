@@ -109,9 +109,19 @@
         PhotoCell *cell = (PhotoCell*)sender.view;
         NSIndexPath *path = [self.collectionView indexPathForCell:cell];
         NSMutableArray *section = self.currentSelection[path.section];
-        [section removeObjectAtIndex:path.row];
         
-        [self.collectionView reloadData];
+        NSInteger maxY = CGRectGetMaxY(self.view.frame);
+        
+        [UIView animateWithDuration:1
+                         animations:^
+         {
+             cell.center = CGPointMake(cell.center.x,maxY);
+         }
+         completion:^(BOOL finished)
+         {
+             [section removeObjectAtIndex:path.row];
+             [self.collectionView reloadData];
+         }];
     }
     
 }
