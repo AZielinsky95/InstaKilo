@@ -13,6 +13,7 @@
 		CAB3215C2090C4E5008BA8A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB3215B2090C4E5008BA8A0 /* Assets.xcassets */; };
 		CAB3215F2090C4E5008BA8A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB3215D2090C4E5008BA8A0 /* LaunchScreen.storyboard */; };
 		CAB321622090C4E5008BA8A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB321612090C4E5008BA8A0 /* main.m */; };
+		CAB3216A2090E010008BA8A0 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB321692090E010008BA8A0 /* PhotoCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CAB3215E2090C4E5008BA8A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAB321602090C4E5008BA8A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAB321612090C4E5008BA8A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAB321682090E010008BA8A0 /* PhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		CAB321692090E010008BA8A0 /* PhotoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				CAB3215D2090C4E5008BA8A0 /* LaunchScreen.storyboard */,
 				CAB321602090C4E5008BA8A0 /* Info.plist */,
 				CAB321612090C4E5008BA8A0 /* main.m */,
+				CAB321682090E010008BA8A0 /* PhotoCell.h */,
+				CAB321692090E010008BA8A0 /* PhotoCell.m */,
 			);
 			path = InstaKilo;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAB3216A2090E010008BA8A0 /* PhotoCell.m in Sources */,
 				CAB321572090C4E5008BA8A0 /* ViewController.m in Sources */,
 				CAB321622090C4E5008BA8A0 /* main.m in Sources */,
 				CAB321542090C4E5008BA8A0 /* AppDelegate.m in Sources */,
